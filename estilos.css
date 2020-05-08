@@ -1,0 +1,61 @@
+#titulo1{
+    
+    background: black; color: rgb(4, 243, 4); 
+    width: 239px ;
+    margin: 0px auto;
+
+}
+#titulo2{
+    background: rgb(8, 235, 129);
+    font-size: 90px;
+    color: white;
+ 
+
+     
+}
+#debajo{
+    background: darkcyan;
+    font-size: 25px;
+    color: white;
+    font-family:Georgia ;
+    
+}
+#uno, #dos, #tres, #cuatro, #cinco{
+    font-size: 20px;
+    background:rgb(150, 148, 148) ; 
+    color: yellow;
+    border: 10px solid black;
+}
+footer{
+    background: black;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-family:arial;
+    width: 590px;
+    margin: 0px auto;
+    
+
+}
+
+    
+#logo{
+    background: gray;
+
+
+
+   
+}
+
+body{
+    text-align: center;
+}
+#titulo2,#debajo,#logo{
+    background: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
